@@ -12,3 +12,8 @@ NSString *dataString = @"YOUR_DATA";
 NSString *hmac = [[NSString alloc] init];
 hmac = [CryptographUtil hmacForKeyAndDataWithKey:keyString data:dataString];
 ```
+
+### SerializationUtil
+```objective-c
+#import "SerializationUtil.h"
+```
