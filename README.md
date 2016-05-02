@@ -7,5 +7,5 @@ H3 CryptographUtil
 NSString *keyString = @"YOUR_KEY";
 NSString *dataString = @"YOUR_DATA;"
 NSString *hmac = [[NSString alloc] init];
-    hmac = [CryptographUtil hmacForKeyAndDataWithKey:keyString data:dataString];
+hmac = [CryptographUtil hmacForKeyAndDataWithKey:keyString data:dataString];
 ```
