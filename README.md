@@ -17,3 +17,8 @@ hmac = [CryptographUtil hmacForKeyAndDataWithKey:keyString data:dataString];
 ```objective-c
 #import "SerializationUtil.h"
 ```
+```objective-c
+NSError *error;
+NSString *myString = @"\"field1\":1234,\"field2\":\"bla bla bla\"";
+NSDictionary *data = [SerializationUtil composeJSONFromString:myString error:&error];
+```
